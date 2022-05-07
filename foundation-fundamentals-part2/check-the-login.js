@@ -1,3 +1,5 @@
+// https://javascript.info/logical-operators#check-the-login
+
 // Write the code which asks for a login with prompt.
 
 // If the visitor enters "Admin", then prompt for a password, if the input is an empty line or Esc – show “Canceled”, if it’s another string – then show “I don’t know you”.
