@@ -22,12 +22,14 @@
 //     Using OR ||
 
 
-// variant 1 - using question mark operator
+//variant 1 - using question mark operator
+function checkAge(age){
+    age > 18 ?  console.log(true) : console.log(confirm('Did parents allow you?'));
+ }
+
+//  variant 2 - using OR ||
 // function checkAge(age){
-//     age > 18 ?  console.log(true) : console.log(confirm('Did parents allow you?'));
+//     return (age > 18) || confirm('Did parents allow you?');
 // }
 
-// variant 2 - using OR ||
-function checkAge(age){
-    return (age > 18) || confirm('Did parents allow you?');
-}
+// 
