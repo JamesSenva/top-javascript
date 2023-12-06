@@ -23,6 +23,16 @@ btn.addEventListener('click', () => {
         list.removeChild(listItem);
     });
 
+    // edit the items
+    const editBtn = document.createElement('button');
+    editBtn.textContent = 'Edit';
+    listItem.appendChild(editBtn);
+
+    editBtn.addEventListener('click', () => {
+        const change = prompt('Edit your list item');
+        listText.textContent = change;
+    })
+
     input.focus();
 
 });
